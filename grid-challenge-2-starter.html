@@ -19,11 +19,16 @@
     }
     .calendar {
       height: 200px;
+      display: grid;
+      grid-template-columns: repeat(7,1fr);
     }
     .day-name {
       background-color: lightgray;
       text-align: center;
       padding: 10px;
+    }
+    .first-day{
+      grid-column: 6 /7;
     }
   </style>
 
